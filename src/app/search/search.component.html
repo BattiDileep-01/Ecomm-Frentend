@@ -4,7 +4,7 @@
     <input #myInput type="text"
     class="au-input au-input-xl"
     placeholder="search for product ..."
-    (keyup.enter)="doSearch(myInput.value)"/>
+    (keyup)="doSearch(myInput.value)"/>
 
     <button class="au-btn-submit" (click)="doSearch(myInput.value)">search</button>
 </div>
