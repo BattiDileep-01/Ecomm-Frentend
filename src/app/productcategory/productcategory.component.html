@@ -1,0 +1,9 @@
+<div class="ProductCategory">
+    <ul class="list-unstyled navbar-list">
+        <li *ngFor="let category of productcategory">
+            <a [routerLink]="['/category' , category.id]">
+                {{category.CategoryName}}
+            </a>
+        </li>
+    </ul>
+</div>

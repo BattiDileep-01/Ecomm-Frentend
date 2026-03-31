@@ -1,0 +1,13 @@
+table{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-collapse: collapse;
+}
+td,th
+{  
+    color:blue;
+    border: 1px solid blue;
+    padding: 5px;
+
+}
